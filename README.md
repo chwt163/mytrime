@@ -7,7 +7,7 @@ double_pinyin.custom.yaml---自然码双拼的自定义文件
 
 weasel.custom.yaml---Windwos 平台的主题自定义文件
 
-my.trime.yaml---安卓平台的 trime 同文输入法的外观主题。
+my.trime.yaml---安卓平台的 trime 同文输入法的外观主题
 
 打字出现候选字的时候，回车键左边的按键，会变成显示更多候选的按键，可以把每页显示候选词数量设定为 50 或 99，来更好地配合这个主题
 
