@@ -6,7 +6,7 @@ rime_ice.custom.yaml---雾凇拼音的自定义文件
 
 double_pinyin.custom.yaml---自然码双拼的自定义文件
 
-weasel.custom.yaml---Windwos 小狼毫主题皮肤自定义文件
+weasel.custom.yaml---Windwos 小狼毫输入法的主题皮肤自定义文件
 
 my.trime.yaml---安卓 trime 同文输入法的主题皮肤文件
 
