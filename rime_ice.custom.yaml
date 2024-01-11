@@ -2,8 +2,8 @@
 # encoding: utf-8
 patch:
   schema:
-    name: 拼音
-  switches:
+    name: 拼音   #方案名称
+  switches:      #方案选单
     - name: ascii_mode
       states: [ '中', 'A' ]
       reset: 0
@@ -28,7 +28,7 @@ patch:
     - options: [_key_Hide]
       states: [" ▾"]  
       #states: ["⌵"]
-  speller:
+  speller:      #模糊音
     algebra:
       # 韵母
        - derive/in$/ing/
