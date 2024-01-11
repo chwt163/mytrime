@@ -1,13 +1,14 @@
 # myrime
+
 我的 rime 配置文件
 
 rime_ice.custom.yaml---雾凇拼音的自定义文件
 
 double_pinyin.custom.yaml---自然码双拼的自定义文件
 
-weasel.custom.yaml---Windwos 平台的外观皮肤自定义文件
+weasel.custom.yaml---Windwos 平台的 小狼毫外观皮肤自定义文件
 
-my.trime.yaml---安卓平台的 trime外观皮肤
+my.trime.yaml---安卓平台 trime 同文输入法的外观皮肤文件
 
 # 主题皮肤说明
 
