@@ -409,7 +409,7 @@ preset_keyboards:
       - {click: h, long_click: '&', key_symbol_offset_x: 9, swipe_down: "&", key_back_color: bh2, key_text_color: th2}
       - {click: j, long_click: '*', key_symbol_offset_x: 9, swipe_down: "*", key_back_color: bh2, key_text_color: th2}
       - {click: k, long_click: '(){Left}', key_symbol_offset_x: 9, swipe_down: "(){Left}", key_back_color: bh2, key_text_color: th2}
-      - {click: l, long_click: '\', key_symbol_offset_x: 9, swipe_down: "", key_back_color: bh2, key_text_color: th2}
+      - {click: l, long_click: '\', key_symbol_offset_x: 9, swipe_down: "\\", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L, label: '',composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs, key_text_size: 20}
