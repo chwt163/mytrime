@@ -2,6 +2,8 @@
 
 我的 rime 配置文件
 
+default.custom.yaml---Rime 的配置文件
+
 rime_ice.custom.yaml---雾凇拼音的自定义文件
 
 double_pinyin.custom.yaml---自然码双拼的自定义文件
