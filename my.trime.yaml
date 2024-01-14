@@ -3446,10 +3446,10 @@ preset_keys:
   space1: {repeatable: false, label: '空格', functional: false, send: space}
   Clear: {label: 全清, send: Clear}
   Escape: {label: 取消, functional: false, send: Escape}
-  Home: {label: 行首, send: Home, functional: false}
+  Home: {label: '|<', send: Home, functional: false}
   Insert: {label: 插入, send: Insert}
   Delete: {label: 删除, send: Delete, functional: false}
-  End: {label: 行尾, send: End, functional: false}
+  End: {label: '>|', send: End, functional: false}
   Page_Up: {label: 上页, send: Page_Up, functional: false}
   Page_Down: {label: 下页, send: Page_Down, functional: false}
   Left: {label: '←', send: Left, repeatable: true, functional: false}
