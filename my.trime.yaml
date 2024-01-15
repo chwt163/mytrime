@@ -3540,7 +3540,7 @@ preset_keys:
   
   Left1: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
   Right1: {label: '⇨', send: Control+Right, repeatable: true, functional: false}
-  Shift_L2: {label: 选择, preview: '⇪', functional: false, send: Shift_L}
+  Shift_L2: {label: '<|>', preview: '⇪', functional: false, send: Shift_L}
 
   # 22自定义功能键
   Keyboard_fbjzj: {label: 助记, functional: false, send: Eisu_toggle, select: fbjzj}
