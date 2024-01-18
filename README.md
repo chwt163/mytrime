@@ -28,6 +28,6 @@ my.trime.yaml---安卓 trime 同文输入法的主题皮肤文件
 ![2](https://github.com/chwt163/mytrime/assets/70951194/a1f79ce4-5bed-402c-9d39-721e71d8c020)
 
 
-![3](https://github.com/chwt163/mytrime/assets/70951194/7775f3bb-4d3b-495f-a62f-c4c890168489)
+![3](https://github.com/chwt163/mytrime/assets/70951194/c92c5161-0207-48c9-8d68-f363ffa32d9d)
 
 
