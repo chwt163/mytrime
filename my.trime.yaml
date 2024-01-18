@@ -3,7 +3,7 @@
 
 config_version: "3.0"
 name: 标准          #方案名称
-author: my        #作者信息
+author: 风花絮        #作者信息
 
 #键盘高度
 height:
@@ -405,16 +405,16 @@ preset_keyboards:
       - {click: a, long_click: select_all, swipe_down: "select_all", key_symbol_offset_x: 4, key_back_color: bh2, key_text_color: th2}
       - {click: s, long_click: '@',  swipe_down: "@", key_symbol_offset_x: 9, key_back_color: bh2, key_text_color: th2}
       - {click: d, long_click: '#',  swipe_down: "#", key_symbol_offset_x: 9, key_back_color: bh2, key_text_color: th2}
-      - {click: f, long_click: '$',  swipe_down: "$", key_symbol_offset_x: 9, key_back_color: bh2, key_text_color: th2}
-      - {click: g, long_click: '%', key_symbol_offset_x: 9, swipe_down: "%", key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: '&', key_symbol_offset_x: 9, swipe_down: "&", key_back_color: bh2, key_text_color: th2}
-      - {click: j, long_click: '*', key_symbol_offset_x: 9, swipe_down: "*", key_back_color: bh2, key_text_color: th2}
-      - {click: k, long_click: '(){Left}', key_symbol_offset_x: 9, swipe_down: "(){Left}", key_back_color: bh2, key_text_color: th2}
+      - {click: f, long_click: '%',  swipe_down: "%", key_symbol_offset_x: 9, key_back_color: bh2, key_text_color: th2}
+      - {click: g, long_click: '*', key_symbol_offset_x: 9, swipe_down: "*", key_back_color: bh2, key_text_color: th2}
+      - {click: h, long_click: '(){Left}', key_symbol_offset_x: 9, swipe_down: "(){Left}", key_back_color: bh2, key_text_color: th2}
+      - {click: j, long_click: '“”{Left}', key_symbol_offset_x: 9, swipe_down: "“”{Left}", key_back_color: bh2, key_text_color: th2}
+      - {click: k, long_click: "'", key_symbol_offset_x: 9, swipe_down: "'", key_back_color: bh2, key_text_color: th2}
       - {click: l, long_click: '\', key_symbol_offset_x: 9, swipe_down: "\\", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L, label: '', composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs, key_text_size: 20}
-      - {click: z, long_click: '“”{Left}', key_symbol_offset_x: 9, swipe_down: '“”{Left}', key_back_color: bh3, key_text_color: th3}
+      - {click: z, long_click: '~', key_symbol_offset_x: 9, swipe_down: '~', key_back_color: bh3, key_text_color: th3}
       - {click: x, long_click: cut, key_symbol_offset_x: 4, swipe_down: 'cut', key_back_color: bh3, key_text_color: th3}
       - {click: c, long_click: copy, key_symbol_offset_x: 8, swipe_down: 'copy', key_back_color: bh3, key_text_color: th3}
       - {click: v, long_click: 'paste_clip', key_symbol_offset_x: 8, swipe_down: paste, key_back_color: bh3, key_text_color: th3}
@@ -523,7 +523,7 @@ preset_keyboards:
       - { click: "/", long_click: paste_clip,  key_symbol_offset_x: 13, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       - { click: 'space1', width: 15, key_back_color: bgn, key_text_color: tgn, key_text_size: 14 }
       - { click: 0, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
-      - { click: ".", long_click: ':', key_symbol_offset_x: 13, width: 13, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
+      - { click: ".", label: '  。', long_click: ':', key_symbol_offset_x: 13, width: 13, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       - { click: Return, width: 13, key_back_color: benter, key_text_color: tgn, key_text_size: 16 }
 
   numberb:
@@ -2902,59 +2902,48 @@ preset_keyboards:
     height: *jpgd1
     keys:
 
-    - {click: '，', height: 26, key_back_color: bgn}
-    - {click: '。', key_back_color: bgn}
-    - {click: '？', key_back_color: bgn}
-    - {click: '！', key_back_color: bgn}
-    - {click: '：', key_back_color: bgn}
-    - {click: '、', key_back_color: bgn}
-    - {click: '……', key_back_color: bgn}
-    - {click: '；', key_back_color: bgn}
-    - {click: '+', key_back_color: bgn}
-    - {click: '', key_back_color: keyboard_back_color, key_text_color: th2}
-
-    - {click: '-', key_back_color: bgn}
-    - {click: '=', key_back_color: bgn}
-    - {click: '·', key_back_color: bgn}
-    - {click: '｀', key_back_color: bgn}
-    - {click: '#', key_back_color: bgn}
-    - {click: '￥', key_back_color: bgn}
-    - {click: '%', key_back_color: bgn}
-    - {click: 'ˉ', key_back_color: bgn}
+    - {click: ',', height: 26, key_back_color: bgn}
+    - {click: '.', label: '  。', key_back_color: bgn}
+    - {click: '?', key_text_size: "16", key_back_color: bgn}
+    - {click: '!', key_text_size: "16", key_back_color: bgn}
+    - {click: ':', key_back_color: bgn}
+    - {click: ';', key_back_color: bgn}
+    - {click: '\', label: '、', key_back_color: bgn}
+    - {click: '—', key_back_color: bgn}
     - {click: '——', key_back_color: bgn}
     - {click: '', key_back_color: keyboard_back_color, key_text_color: th2}
 
     - {click: '“”{Left}', key_back_color: bgn}
     - {click: "‘’{Left}", key_back_color: bgn}
-    - {click: 'ˆˇ{Left}', key_back_color: bgn}
-    - {click: '（）{Left}', key_back_color: bgn}
-    - {click: '〈〉{Left}', key_back_color: bgn}
-    - {click: '‹›{Left}', key_back_color: bgn}
-    - {click: '｛｝{Left}', key_back_color: bgn}
-    - {click: '『』{Left}', key_back_color: bgn}
-    - {click: '〖〗{Left}', key_back_color: bgn}
+    - {click: '……', key_back_color: bgn}
+    - {click: '～', key_back_color: bgn}
+    - {click: '@', key_text_size: "16", key_back_color: bgn}
+    - {click: '#', key_text_size: "16", key_back_color: bgn}
+    - {click: '￥', key_text_size: "16", key_back_color: bgn}
+    - {click: '%', key_text_size: "16", key_back_color: bgn}
+    - {click: '*', key_back_color: bgn}
     - {label: '', click: Keyboard_bqfh2-1, key_text_size: "14", key_back_color: bh5,  key_text_color: tenter}
 
-    - {click: '［］{Left}', key_back_color: bgn}
+    - {click: '（）{Left}', key_back_color: bgn}
+    - {click: '〈〉{Left}', key_back_color: bgn}
     - {click: '《》{Left}', key_back_color: bgn}
-    - {click: '〔〕{Left}', key_back_color: bgn}
-    - {click: '{}{Left}', key_back_color: bgn}
+    - {click: '『』{Left}', key_back_color: bgn}
     - {click: '「」{Left}', key_back_color: bgn}
     - {click: '【】{Left}', key_back_color: bgn}
-    - {click: '～', key_back_color: bgn}
-    - {click: '@{Return}', key_back_color: bgn}
-    - {click: '*{Return}', key_back_color: bgn}
+    - {click: '〖〗{Left}', key_back_color: bgn}
+    - {click: '〔〕{Left}', key_back_color: bgn}
+    - {click: '［］{Left}', key_back_color: bgn}
     - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 14 }
 
-    - {click: '&{Return}', key_back_color: bgn}
-    - {click: '﹏', key_back_color: bgn}
-    - {click: '﹋', key_back_color: bgn}
-    - {click: '﹌', key_back_color: bgn}
-    - {click: '︴', key_back_color: bgn}
-    - {click: '々', key_back_color: bgn}
-    - {click: '﹤', key_back_color: bgn}
-    - {click: '｜', key_back_color: bgn}
-    - {click: '‖', key_back_color: bgn}
+    - {click: '｛｝{Left}', key_back_color: bgn}
+    - {click: '+', key_back_color: bgn}
+    - {click: '-', key_back_color: bgn}
+    - {click: '×', key_back_color: bgn}
+    - {click: '÷', key_back_color: bgn}
+    - {click: '=', key_back_color: bgn}
+    - {click: '｜', key_text_size: "16", key_back_color: bgn}
+    - {click: '℃', key_text_size: "16", key_back_color: bgn}
+    - {click: '/', key_text_size: "16", key_back_color: bgn}
     - {click: BackSpace, key_text_size: "20", key_back_color: bh5, key_text_color: tenter}
 
     - {click: Keyboard_default, label: '', width: 14, key_text_size: "14", key_back_color: bh5, key_text_color: tenter}
@@ -2994,36 +2983,26 @@ preset_keyboards:
     - {click: '﹎', key_back_color: bgn}
     - {click: '〜', key_back_color: bgn}
     - {click: '〰', key_back_color: bgn}
-    - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
+    - {label: '', click: Keyboard_bqfh1-1, key_text_size: "14", key_back_color: bh5,  key_text_color: tenter}
 
     - {click: '°', key_back_color: bgn}
     - {click: '℃', key_back_color: bgn}
-    - {click: '〝〞', key_back_color: bgn}
+    - {click: '︽︾{Left}', key_back_color: bgn}
     - {click: '﹙﹚{Left}', key_back_color: bgn}
     - {click: '﹤﹥{Left}', key_back_color: bgn}
     - {click: '〘〙{Left}', key_back_color: bgn}
     - {click: '︵︶{Left}', key_back_color: bgn}
     - {click: '︷︸{Left}', key_back_color: bgn}
     - {click: '︿﹀{Left}', key_back_color: bgn}
-    - {label: '', click: Keyboard_bqfh1-1, key_text_size: "14", key_back_color: bh5,  key_text_color: tenter}
+    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 14 }
 
-    - {click: '︽︾{Left}', key_back_color: bgn}
     - {click: '︹︺{Left}', key_back_color: bgn}
     - {click: '︻︼{Left}', key_back_color: bgn}
     - {click: '﹃﹄{Left}', key_back_color: bgn}
     - {click: '〟', key_back_color: bgn}
     - {click: '〃', key_back_color: bgn}
-    - {click: '﹘', key_back_color: bgn}
-    - {click: '﹪', key_back_color: bgn}
-    - {click: '﹢', key_back_color: bgn}
-    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 14 }
-    - {click: '﹣', key_back_color: bgn}
-    - {click: '﹦', key_back_color: bgn}
-    - {click: '﹫', key_back_color: bgn}
-    - {click: '﹠', key_back_color: bgn}
-    - {click: '﹩', key_back_color: bgn}
-    - {click: '﹡', key_back_color: bgn}
-    - {click: '﹟', key_back_color: bgn}
+    - {click: '_', key_back_color: bgn}
+    - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
     - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
     - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
     - {click: BackSpace, key_text_size: "20", key_back_color: bh5, key_text_color: tenter}
@@ -3046,44 +3025,44 @@ preset_keyboards:
     height: *jpgd1
     keys:
     - {click: ',', height: 26, key_back_color: bgn}
-    - {click: '.', key_back_color: bgn}
-    - {click: '?', key_back_color: bgn}
-    - {click: '!', key_back_color: bgn}
+    - {click: '.', label: '  。', key_back_color: bgn}
+    - {click: '?', key_text_size: "16", key_back_color: bgn}
+    - {click: '!', key_text_size: "16", key_back_color: bgn}
     - {click: ':', key_back_color: bgn}
-    - {click: '/', key_back_color: bgn}
-    - {click: '@', key_back_color: bgn}
     - {click: ';', key_back_color: bgn}
     - {click: '…', key_back_color: bgn}
+    - {click: '“”{Left}', key_back_color: bgn}
+    - {click: "‘’{Left}", key_back_color: bgn}
     - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
 
-    - {click: '"', key_back_color: bgn}
-    - {click: "'", key_back_color: bgn}
+    - {click: '`', key_back_color: bgn}
     - {click: '~', key_back_color: bgn}
-    - {click: '*', key_back_color: bgn}
-    - {click: '&', key_back_color: bgn}
+    - {click: '@', key_text_size: "16", key_back_color: bgn}
+    - {click: '#', key_text_size: "16", key_back_color: bgn}
+    - {click: '$', key_text_size: "16", key_back_color: bgn}
+    - {click: '%', key_text_size: "16", key_back_color: bgn}
     - {click: '^', key_back_color: bgn}
-    - {click: '$', key_back_color: bgn}
-    - {click: '\', key_back_color: bgn}
-    - {click: '|', key_back_color: bgn}
+    - {click: '&', key_text_size: "16", key_back_color: bgn}
+    - {click: '*', key_back_color: bgn}
     - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
 
-    - {click: '#', key_back_color: bgn}
+    - {click: "'", key_back_color: bgn}
+    - {click: '"', key_back_color: bgn}
     - {click: '(){Left}', key_back_color: bgn}
     - {click: '<>{Left}', key_back_color: bgn}
     - {click: '{}{Left}', key_back_color: bgn}
     - {click: '[]{Left}', key_back_color: bgn}
-    - {click: '`', key_back_color: bgn}
-    - {click: '%', key_back_color: bgn}
-    - {click: '+', key_back_color: bgn}
-    - {click: '-', key_back_color:bgn}
+    - {click: '/', key_text_size: "16", key_back_color: bgn}
+    - {click: '\', key_text_size: "16", label: '、', key_back_color: bgn}
+    - {click: '|', key_text_size: "16", key_back_color: bgn}
     - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 14 }
 
+    - {click: '+', key_back_color: bgn}
+    - {click: '-', key_back_color:bgn}
+    - {click: '×', key_back_color: bgn}
+    - {click: '÷', key_back_color: bgn}
     - {click: '=', key_back_color: bgn}
-    - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
-    - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
-    - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
-    - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
-    - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
+    - {click: '_', key_back_color: bgn}
     - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
     - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
     - {click: '', key_back_color:  keyboard_back_color, key_text_color: th2}
