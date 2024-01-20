@@ -4,13 +4,13 @@
 
 default.custom.yaml---Rime 的配置文件
 
-rime_ice.custom.yaml---雾凇拼音的自定义文件
+rime_ice.custom.yaml --- 雾凇拼音的自定义文件
 
-double_pinyin.custom.yaml---自然码双拼的自定义文件
+double_pinyin.custom.yaml --- 自然码双拼的自定义文件
 
-weasel.custom.yaml---Windwos 小狼毫输入法的主题皮肤自定义文件
+weasel.custom.yaml --- Windwos 小狼毫输入法的主题皮肤自定义文件
 
-my.trime.yaml---安卓 trime 同文输入法的主题皮肤文件
+big.trime.yaml & tiny.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件
 
 # 安卓主题说明
 
@@ -20,14 +20,28 @@ my.trime.yaml---安卓 trime 同文输入法的主题皮肤文件
 
 打字出现候选字的时候，回车键左边的按键，会变成显示更多候选的按键。建议把每页显示候选词的数量设定为 99，使用效果更佳。
 
+# big.trime.yaml:
+
+![1](https://github.com/chwt163/mytrime/assets/70951194/75dfd1ab-7674-4662-b24e-3b4befd7edff)
+
+![2](https://github.com/chwt163/mytrime/assets/70951194/ffc19359-dce5-42cf-85fa-5763d0c064f3)
+
+![3](https://github.com/chwt163/mytrime/assets/70951194/fd498678-1e8e-429a-bcad-82d7a8e06844)
+
+# tiny.trime.yaml:
+
+![11](https://github.com/chwt163/mytrime/assets/70951194/aea4a2ed-adcd-4fb1-a0a0-38f4015550aa)
+
+![22](https://github.com/chwt163/mytrime/assets/70951194/ae65f5b7-c253-45e7-8313-86d284d76c0f)
+
+![33](https://github.com/chwt163/mytrime/assets/70951194/d907dd53-72df-4561-8c12-6687dbd1255d)
 
 
-![1](https://github.com/chwt163/mytrime/assets/70951194/14a3f8cf-b3b8-46b0-a019-b3f16b4fbc75)
 
 
-![2](https://github.com/chwt163/mytrime/assets/70951194/a1f79ce4-5bed-402c-9d39-721e71d8c020)
 
 
-![3](https://github.com/chwt163/mytrime/assets/70951194/c92c5161-0207-48c9-8d68-f363ffa32d9d)
+
+
 
 
