@@ -24,9 +24,9 @@ big.trime.yaml & tiny.trime.yaml --- 安卓 trime 同文输入法的主题皮肤
 
 ![1](https://github.com/chwt163/mytrime/assets/70951194/75dfd1ab-7674-4662-b24e-3b4befd7edff)
 
-![2](https://github.com/chwt163/mytrime/assets/70951194/ffc19359-dce5-42cf-85fa-5763d0c064f3)
+![2](https://github.com/chwt163/mytrime/assets/70951194/53a08321-16f3-4e68-837a-dc5630ae5d28)
 
-![3](https://github.com/chwt163/mytrime/assets/70951194/fd498678-1e8e-429a-bcad-82d7a8e06844)
+![3](https://github.com/chwt163/mytrime/assets/70951194/eb8fe083-d62a-4171-a938-347a4c56fed8)
 
 # tiny.trime.yaml:
 
