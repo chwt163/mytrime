@@ -420,7 +420,7 @@ preset_keyboards:
       - {click: v, long_click: 'paste', symbol_text_size: 9, key_symbol_offset_x: 8, swipe_down: paste, key_back_color: bh3, key_text_color: th3}
       - {click: b, long_click: ";", key_symbol_offset_x: 9, swipe_down: ";", key_back_color: bh3, key_text_color: th3}
       - {click: n, long_click: ":",  swipe_down: ":", key_symbol_offset_x: 9, key_back_color: bh3, key_text_color: th3}
-      - {click: m, long_click: '…', key_symbol_offset_x: 9, swipe_down: "…", key_back_color: bh3, key_text_color: th3}
+      - {click: m, long_click: '/', key_symbol_offset_x: 9, swipe_down: "/", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bgn, key_text_color: tbs, key_text_size: 20}
 
       - {click: Keyboard_number, long_click: , key_symbol_offset_x: 15, width: 15, key_back_color: bgn, key_text_color: tgn}
@@ -493,7 +493,7 @@ preset_keyboards:
       - { click: undo, key_back_color: bgn, key_text_color: tgn, key_text_size: 18 }
       - { click: Up, key_back_color: bh5, key_text_color: tgn, key_text_size: 16 }
       - { click: redo, key_back_color: bgn, key_text_color: tgn, key_text_size: 18 }
-      - { click: "+", long_click: select_all1,  symbol_text_size: 9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
+      - { click: "+", long_click: select_all,  symbol_text_size: 9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       - { click: 1, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
       - { click: 2, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
       - { click: 3, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
@@ -502,7 +502,7 @@ preset_keyboards:
       - { click: Left, key_back_color: bh5, key_text_color: tgn, key_text_size: 16 }
       - { click: Shift_L2, key_back_color: bgn, key_text_color: tgn, key_text_size: 12 }
       - { click: Right, key_back_color: bh5, key_text_color: tgn, key_text_size: 16 }
-      - { click: "-", long_click: cut1,  symbol_text_size: 9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
+      - { click: "-", long_click: cut2,  symbol_text_size:  9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       - { click: 4, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
       - { click: 5, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
       - { click: 6, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
@@ -511,7 +511,7 @@ preset_keyboards:
       - { click: Home, key_back_color: bgn, key_text_color: tgn, key_text_size: 12 }
       - { click: Down, key_back_color: bh5, key_text_color: tgn, key_text_size: 16 }
       - { click: End, key_back_color: bgn, key_text_color: tgn, key_text_size: 12 }
-      - { click: "*", long_click: copy1,  symbol_text_size: 9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
+      - { click: "*", long_click: copy,  symbol_text_size: 9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       - { click: 7, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
       - { click: 8, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
       - { click: 9, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
@@ -520,8 +520,8 @@ preset_keyboards:
       - { click: Keyboard_default, long_click: Menu,  key_back_color: bgn, key_text_color: tgn, key_text_size: 14 }
       - { click: "Keyboard_bqfh1",  key_back_color: bgn, key_text_color: tgn, key_text_size: 14 }
       - { click: "=", long_click: , key_symbol_offset_x: 13, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
-      - { click: "/", long_click: paste,  symbol_text_size: 9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
-      - { click: 'space1', width: 15, key_back_color: bgn, key_text_color: tgn, key_text_size: 14 }
+      - { click: "/", long_click: paste_clip,  symbol_text_size: 9, key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
+      - { click: 'space1', width: 15, key_back_color: bgn, key_text_color: tgn, key_text_size: 26, key_text_offset_y: -10 }
       - { click: 0, width: 15, key_back_color: bh5, key_text_color: tgn, key_text_size: 18 }
       - { click: ".", label: '  。', long_click: ':', key_symbol_offset_x: 13, width: 13, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       - { click: Return, width: 13, key_back_color: benter, key_text_color: tgn, key_text_size: 16 }
@@ -631,7 +631,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: ' ', click: Keyboard_bqrw1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqrw2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqrw2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '😀'}
     - {click: '😁'}
     - {click: '😂'}
@@ -697,8 +697,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqrw1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqrw3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqrw1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqrw3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '😓'}
     - {click: '😔'}
     - {click: '😕'}
@@ -764,8 +764,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqrw2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqrw4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqrw2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqrw4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '😹'}
     - {click: '😻'}
     - {click: '😼'}
@@ -831,8 +831,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqrw3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqrw5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqrw3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqrw5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🗣'}
     - {click: '👤'}
     - {click: '👥'}
@@ -898,8 +898,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqrw4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqrw6, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqrw4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqrw6, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🖕'}
     - {click: '👇'}
     - {click: '✌'}
@@ -965,7 +965,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqrw5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqrw5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqrw6, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '❣'}
     - {click: '💌'}
@@ -1033,7 +1033,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: benter, key_text_color: tenter}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: ' ', click: Keyboard_bqqt1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqt2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqt2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🏧'}
     - {click: '🚮'}
     - {click: '🚰'}
@@ -1100,8 +1100,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: benter, key_text_color: tenter}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqqt1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqt3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqt1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqt3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🔙'}
     - {click: '🔚'}
     - {click: '🔛'}
@@ -1167,8 +1167,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: benter, key_text_color: tenter}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqqt2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqt4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqt2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqt4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '❓'}
     - {click: '❔'}
     - {click: '❕'}
@@ -1234,7 +1234,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: benter, key_text_color: tenter}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqqt3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqt3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqqt4, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '🔅'}
     - {click: '🔆'}
@@ -1302,7 +1302,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqqz1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqz2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqz2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🇦🇩'}
     - {click: '🇦🇪'}
     - {click: '🇦🇫'}
@@ -1368,8 +1368,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: benter, key_text_color: tenter}
-    - {label: '上页', click: Keyboard_bqqz1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqz3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqz1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqz3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🇨🇰'}
     - {click: '🇨🇱'}
     - {click: '🇨🇲'}
@@ -1435,8 +1435,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: benter, key_text_color: tenter}
-    - {label: '上页', click: Keyboard_bqqz2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqz4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqz2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqz4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🇬🇶'}
     - {click: '🇬🇷'}
     - {click: '🇬🇹'}
@@ -1502,8 +1502,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: benter, key_text_color: tenter}
-    - {label: '上页', click: Keyboard_bqqz3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqz5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqz3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqz5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🇱🇰'}
     - {click: '🇱🇷'}
     - {click: '🇱🇸'}
@@ -1569,8 +1569,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: benter, key_text_color: tenter}
-    - {label: '上页', click: Keyboard_bqqz4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqqz6, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqz4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqqz6, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🇵🇦'}
     - {click: '🇵🇪'}
     - {click: '🇵🇫'}
@@ -1636,7 +1636,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: benter, key_text_color: tenter}
-    - {label: '上页', click: Keyboard_bqqz5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqqz5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqqz6, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '🇹🇭'}
     - {click: '🇹🇯'}
@@ -1704,7 +1704,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: ' ', click: Keyboard_bqpt1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqpt2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqpt2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🍇'}
     - {click: '🍈'}
     - {click: '🍉'}
@@ -1770,7 +1770,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqpt1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqpt1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqpt2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '🍢'}
     - {click: '🍣'}
@@ -1838,7 +1838,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: ' ', click: Keyboard_bqhd1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqhd2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqhd2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🎃'}
     - {click: '🎄'}
     - {click: '🎆'}
@@ -1904,7 +1904,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqhd1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqhd1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqhd2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '🎽'}
     - {click: '🎿'}
@@ -1972,7 +1972,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: ' ', click: Keyboard_bqhc1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqhc2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqhc2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🐵'}
     - {click: '🐒'}
     - {click: '🐶'}
@@ -2038,8 +2038,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqhc1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqhc3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqhc1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqhc3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🦃'}
     - {click: '🐔'}
     - {click: '🐓'}
@@ -2105,7 +2105,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqhc2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqhc2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqhc3, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '🌷'}
     - {click: '🌱'}
@@ -2173,7 +2173,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: ' ', click: Keyboard_bqlx1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqlx2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqlx2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🌍'}
     - {click: '🌎'}
     - {click: '🌏'}
@@ -2239,8 +2239,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqlx1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqlx3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqlx1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqlx3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🕌'}
     - {click: '🕍'}
     - {click: '⛩'}
@@ -2306,8 +2306,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqlx2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqlx4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqlx2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqlx4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🚐'}
     - {click: '🚑'}
     - {click: '🚒'}
@@ -2373,8 +2373,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqlx3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqlx5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqlx3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqlx5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🛎'}
     - {click: '🚪'}
     - {click: '🛌'}
@@ -2440,8 +2440,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqlx4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqlx6, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqlx4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqlx6, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🌒'}
     - {click: '🌓'}
     - {click: '🌔'}
@@ -2507,7 +2507,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqlx5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqlx5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqlx6, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '☄'}
     - {click: '🔥'}
@@ -2575,7 +2575,7 @@ preset_keyboards:
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: ' ', click: Keyboard_bqkj1, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqkj2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqkj2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '🔇'}
     - {click: '🔈'}
     - {click: '🔉'}
@@ -2641,8 +2641,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: benter, key_text_color: tenter}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqkj1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqkj3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqkj1, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqkj3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '📀'}
     - {click: '🎥'}
     - {click: '🎞'}
@@ -2708,8 +2708,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: benter, key_text_color: tenter}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqkj2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqkj4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqkj2, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqkj4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '💷'}
     - {click: '💸'}
     - {click: '💳'}
@@ -2775,8 +2775,8 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: benter, key_text_color: tenter}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqkj3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
-    - {label: '下页', click: Keyboard_bqkj5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqkj3, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '﹀', key_text_offset_y: 5, click: Keyboard_bqkj5, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {click: '📍'}
     - {click: '📎'}
     - {click: '🖇'}
@@ -2842,7 +2842,7 @@ preset_keyboards:
     - {label: '🔌', click: Keyboard_bqkj1, key_back_color: benter, key_text_color: tenter}
     - {label: '🔶', click: Keyboard_bqqt1, key_back_color: hilited_key_back_color, key_text_color: tgn}
     - {label: '🇨🇳', click: Keyboard_bqqz1, key_back_color: hilited_key_back_color, key_text_color: tgn}
-    - {label: '上页', click: Keyboard_bqkj4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
+    - {label: '︿', key_text_offset_y: -5, click: Keyboard_bqkj4, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
     - {label: ' ', click: Keyboard_bqkj5, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color,  key_text_color: tenter}
     - {click: '⚰'}
     - {click: '⚱'}
@@ -2922,7 +2922,7 @@ preset_keyboards:
     - {click: '$', label: '￥', key_text_size: "16", key_back_color: bgn}
     - {click: '%', key_text_size: "16", key_back_color: bgn}
     - {click: '*', key_back_color: bgn}
-    - {label: '', click: Keyboard_bqfh2-1, key_text_size: "14", key_back_color: bh5,  key_text_color: tenter}
+    - {label: '', click: Keyboard_bqfh2-1, key_text_size: "14", key_text_offset_y: 5,  key_back_color: bh5,  key_text_color: tenter}
 
     - {click: '（）{Left}', key_back_color: bgn}
     - {click: '〈〉{Left}', key_back_color: bgn}
@@ -2933,7 +2933,7 @@ preset_keyboards:
     - {click: '〖〗{Left}', key_back_color: bgn}
     - {click: '〔〕{Left}', key_back_color: bgn}
     - {click: '［］{Left}', key_back_color: bgn}
-    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 14 }
+    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 22, key_text_offset_y: -10 }
 
     - {click: '｛｝{Left}', key_back_color: bgn}
     - {click: '+', key_back_color: bgn}
@@ -2983,7 +2983,7 @@ preset_keyboards:
     - {click: '﹎', key_back_color: bgn}
     - {click: '〜', key_back_color: bgn}
     - {click: '〰', key_back_color: bgn}
-    - {label: '', click: Keyboard_bqfh1-1, key_text_size: "14", key_back_color: bh5,  key_text_color: tenter}
+    - {label: '', click: Keyboard_bqfh1-1, key_text_size: "14", key_text_offset_y: -5,  key_back_color: bh5,  key_text_color: tenter}
 
     - {click: '°', key_back_color: bgn}
     - {click: '︽︾{Left}', key_back_color: bgn}
@@ -2994,7 +2994,7 @@ preset_keyboards:
     - {click: '︷︸{Left}', key_back_color: bgn}
     - {click: '︿﹀{Left}', key_back_color: bgn}
     - {click: '︹︺{Left}', key_back_color: bgn}
-    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 14 }
+    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 22, key_text_offset_y: -10 }
 
     - {click: '︻︼{Left}', key_back_color: bgn}
     - {click: '﹃﹄{Left}', key_back_color: bgn}
@@ -3055,7 +3055,7 @@ preset_keyboards:
     - {click: '|', key_text_size: "16", key_back_color: bgn}
     - {click: '/', key_text_size: "16", key_back_color: bgn}
     - {click: '\', key_text_size: "16", label: '、', key_back_color: bgn}
-    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 14 }
+    - { click: 'space1', key_back_color: bh5,  key_text_color: tgn, key_text_size: 22, key_text_offset_y: -10 }
 
     - {click: '+', key_back_color: bgn}
     - {click: '-', key_back_color: bgn}
@@ -3422,7 +3422,7 @@ preset_keys:
   Hide: {label: ⌵, send: BACK}
   BackSpace: {label: ⌫, preview: '⇦', repeatable: true, functional: false, send: BackSpace}
   space: {repeatable: true, preview: '空格', functional: false, send: space}
-  space1: {repeatable: false, label: '空格', functional: false, send: space}
+  space1: {repeatable: false, label: '⎵', functional: false, send: space}
   Clear: {label: 全清, send: Clear}
   Escape: {label: 取消, functional: false, send: Escape}
   Home: {label: '|<', send: Home, functional: false}
@@ -3439,7 +3439,7 @@ preset_keys:
   select_all1: {label: '全选', functional: false, send: Control+a}
   cut: {label: ' ', functional: false, send: Control+x}
   cut1: {label: '剪切', functional: false, send: Control+x}
-  cut2: {label: ' ', functional: false, send: Control+x}
+  cut2: {label: '✁', functional: false, send: Control+x}
   copy: {label: ' ', functional: false, send: Control+c}
   copy1: {label: '复制', functional: false, send: Control+c}
   paste: {label: 粘贴, functional: false, send: Control+v}
@@ -3602,16 +3602,16 @@ preset_keys:
   Keyboard_bqkj5: {label: 科技5, functional: false, send: Eisu_toggle, select: bqkj5}
 
   Keyboard_bqfh1: {label: "#!?", functional: false, send: Eisu_toggle, select: bqfh1}
-  Keyboard_bqfh1-1: {label: "上页", functional: false, send: Eisu_toggle, select: bqfh1}
+  Keyboard_bqfh1-1: {label: "︿", functional: false, send: Eisu_toggle, select: bqfh1}
   Keyboard_bqfh1-2: {label: "中符", functional: false, send: Eisu_toggle, select: bqfh1}
   Keyboard_bqfh1-3: {label: "", functional: false, select: bqfh1}
-  Keyboard_bqfh2: {label: "上页", functional: false, send: Eisu_toggle, select: bqfh2, key_text_size: "14"}
-  Keyboard_bqfh2-1: {label: "下页", functional: false, send: Eisu_toggle, select: bqfh2, key_text_size: "14"}
+  Keyboard_bqfh2: {label: "︿", functional: false, send: Eisu_toggle, select: bqfh2, key_text_size: "14"}
+  Keyboard_bqfh2-1: {label: "﹀", functional: false, send: Eisu_toggle, select: bqfh2, key_text_size: "14"}
   Keyboard_bqfh2-3: {label: "", functional: false, select: bqfh2, key_text_size: "14"}
-  Keyboard_bqfh3: {label: "上页", functional: false, send: Eisu_toggle, select: bqfh3, key_text_size: "14"}
+  Keyboard_bqfh3: {label: "︿", functional: false, send: Eisu_toggle, select: bqfh3, key_text_size: "14"}
   Keyboard_bqfh3-1: {label: "#!?", functional: false, send: Eisu_toggle, select: bqfh3, key_text_size: "14"}
   Keyboard_bqfh3-2: {label: "英符", functional: false, send: Eisu_toggle, select: bqfh3, key_text_size: "14"}
-  Keyboard_bqfh4: {label: "下页", functional: false, send: Eisu_toggle, select: bqfh4, key_text_size: "14"}
+  Keyboard_bqfh4: {label: "﹀", functional: false, send: Eisu_toggle, select: bqfh4, key_text_size: "14"}
 
   Keyboard_bqsy1: {label: "中", functional: false, send: Eisu_toggle, select: bqfh1, key_text_size: "14"}
   Keyboard_bqsy2: {label: "西", functional: false, send: Eisu_toggle, select: bqfh3, key_text_size: "14"}
