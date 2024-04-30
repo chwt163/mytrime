@@ -20,7 +20,22 @@ big.trime.yaml & tiny.trime.yaml --- 安卓 trime 同文输入法的主题皮肤
 
 打字出现候选字的时候，回车键左边的按键，会变成显示更多候选的按键。建议把每页显示候选词的数量设定为 99，使用效果更佳。
 
+
+# tiny.trime.yaml:
+
+![104](https://github.com/chwt163/mytrime/assets/70951194/e779a9da-f677-4c08-8fb8-67f976bed7e7)
+
+![11](https://github.com/chwt163/mytrime/assets/70951194/aea4a2ed-adcd-4fb1-a0a0-38f4015550aa)
+
+![22](https://github.com/chwt163/mytrime/assets/70951194/ae65f5b7-c253-45e7-8313-86d284d76c0f)
+
+![33](https://github.com/chwt163/mytrime/assets/70951194/d907dd53-72df-4561-8c12-6687dbd1255d)
+
+
+
 # big.trime.yaml:
+
+![204](https://github.com/chwt163/mytrime/assets/70951194/a544afeb-c5e2-47e3-a4d1-8a60d8c1d70d)
 
 ![1](https://github.com/chwt163/mytrime/assets/70951194/75dfd1ab-7674-4662-b24e-3b4befd7edff)
 
@@ -28,13 +43,7 @@ big.trime.yaml & tiny.trime.yaml --- 安卓 trime 同文输入法的主题皮肤
 
 ![3](https://github.com/chwt163/mytrime/assets/70951194/eb8fe083-d62a-4171-a938-347a4c56fed8)
 
-# tiny.trime.yaml:
 
-![11](https://github.com/chwt163/mytrime/assets/70951194/aea4a2ed-adcd-4fb1-a0a0-38f4015550aa)
-
-![22](https://github.com/chwt163/mytrime/assets/70951194/ae65f5b7-c253-45e7-8313-86d284d76c0f)
-
-![33](https://github.com/chwt163/mytrime/assets/70951194/d907dd53-72df-4561-8c12-6687dbd1255d)
 
 
 
