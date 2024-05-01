@@ -523,7 +523,7 @@ preset_keyboards:
       - { click: 9, width: 15, key_back_color: bh6, key_text_color: tgn, key_text_size: 18 }
       - { click: BackSpace, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       # 第四行
-      - { click: Keyboard_default, long_click: Menu,  key_back_color: bgn, key_text_color: tgn, key_text_size: 14 }
+      - { click: Keyboard_default, long_click: ,  key_back_color: bgn, key_text_color: tgn, key_text_size: 14 }
       - { click: "Keyboard_bqfh1",  key_back_color: bgn, key_text_color: tgn, key_text_size: 14 }
       - { click: "=", long_click: , key_symbol_offset_x: 13, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
       - { click: "/", long_click: paste_clip,  key_symbol_offset_x: 13, key_back_color: bgn, key_text_color: tgn, key_text_size: 16 }
