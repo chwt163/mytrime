@@ -429,8 +429,8 @@ preset_keyboards:
       - {click: m, long_click: '/', key_symbol_offset_x: 9, swipe_down: "/", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bgn, key_text_color: tbs, key_text_size: 20}
 
-      - {click: Keyboard_number, long_click: , key_symbol_offset_x: 15, width: 15, key_back_color: bgn, key_text_color: tgn}
-      - {click: 'Keyboard_bqfh1', ascii: Keyboard_bqfh3-1, key_text_size: 14, long_click: '', key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: th4}
+      - {click: Keyboard_number, long_click: 'Menu', key_symbol_offset_x: 15, width: 15, key_back_color: bgn, key_text_color: tgn}
+      - {click: 'Keyboard_bqfh1', ascii: Keyboard_bqfh3-1, key_text_size: 14, long_click: 'Theme_settings', key_symbol_offset_x: 9, key_back_color: bgn, key_text_color: th4}
       - {click: ',', label: '，', key_text_offset_x: 4, long_click: '!', key_symbol_offset_x: 9, key_back_color: bh4, key_text_color: th4}
       - {click: space, ascii: space2, key_text_size: 10, long_click: ,  key_symbol_offset_x: 40, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switchcn, width: 30, key_back_color: bkg, key_text_color: tkg}
       - {click: '.', label: '  。', long_click: '?',  key_symbol_offset_x: 9, key_back_color: bh4, key_text_color: th4}
@@ -3504,11 +3504,11 @@ preset_keys:
   IME_next: {label: 下一输入法, send: LANGUAGE_SWITCH, select: .next} #直接切換到下一輸入法
   Schema_switch: {label: 下一方案, functional: false, send: Control+Shift+1}
   Schema_Eng: {label: En, functional: true, send: Control+Shift+0}
-  Theme_settings: {label: ' ', send: SETTINGS, option: "theme"}
+  Theme_settings: {label: '◲', send: SETTINGS, option: "theme"}
   Color_switch: {label: ◑, functional: false, send: PROG_RED}
   Help: {label: 说明, send: Help}
   Info: {label: 关于, send: INFO}
-  Menu: {label: ' ', functional: false, send: Menu}
+  Menu: {label: '⁝', functional: false, send: Menu}
   Settings: {label: 设置, functional: false, send: SETTINGS}
   # trime命令
   Date: {label: 日期, send: function, command: date, option: " yyyy-MM-dd "}
