@@ -19,10 +19,10 @@ patch:
     - name: emoji
       states: [ ' ∷ ', ' ☻ ' ]
       reset: 0
+    - options: [_key_paste_clip]
+      states: [" ☆ "]
     - options: [_key_Theme_settings]
       states: [" ◲ "]
-    - options: [_key_IME_switch]
-      states: [" ⋯ "]
     - options: [_key_Menu]
       states: ["  ⁝  "]
     - options: [_key_Hide]
