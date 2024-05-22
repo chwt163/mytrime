@@ -9,3 +9,6 @@ patch:
   schema_list:
     - {schema: double_pinyin}
     - {schema: rime_ice}
+  punctuator/half_shape:
+    __include: "default:/punctuator/half_shape"
+    "~": "～"
