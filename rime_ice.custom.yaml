@@ -2,22 +2,22 @@
 # encoding: utf-8
 patch:
   schema:
-    name: 拼音   #方案名称
-  switches:      #方案选单
+    name: 拼音
+  switches:
     - name: ascii_mode
-      states: [ '中', 'A' ]
+      states: [ '  中  ', '  西  ' ]
       reset: 0
     - name: traditionalization
-      states: [ 简, 繁 ]
+      states: [ ' 简 ', ' 繁 ' ]
       reset: 0
-    - name: full_shape
-      states: [ '◗','◑' ]
-      reset: 0
-    - name: ascii_punct
-      states: ['੦','◍']
-      reset: 0
+ #   - name: full_shape
+ #     states: [ '◗','◑' ]
+ #     reset: 0
+ #   - name: ascii_punct
+ #     states: ['੦','◍']
+ #     reset: 0
     - name: emoji
-      states: [ ∷, ☻ ]
+      states: [ ' ∷ ', ' ☻ ' ]
       reset: 0
     - options: [_key_Theme_settings]
       states: [" ◲ "]
@@ -26,9 +26,9 @@ patch:
     - options: [_key_Menu]
       states: ["  ⁝  "]
     - options: [_key_Hide]
-      states: [" ▾"]  
+      states: ["  ▾  "]  
       #states: ["⌵"]
-  speller:      #模糊音
+  speller:
     algebra:
       # 韵母
        - derive/in$/ing/
