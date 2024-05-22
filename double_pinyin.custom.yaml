@@ -2,34 +2,34 @@
 # encoding: utf-8
 patch:
   schema:
-    name: 双拼     #方案名称
-  switches:        #方案选单
+    name: 双拼
+  switches:
     - name: ascii_mode
-      states: [ '中', 'A' ]
+      states: [ '  中  ', '  西  ' ]
       reset: 0
     - name: traditionalization
-      states: [ 简, 繁 ]
+      states: [ ' 简 ', ' 繁 ' ]
       reset: 0
-    - name: full_shape
-      states: [ '◗','◑' ]
-      reset: 0
-    - name: ascii_punct
-      states: ['੦','◍']
-      reset: 0
+ #   - name: full_shape
+ #     states: [ '◗','◑' ]
+ #     reset: 0
+ #   - name: ascii_punct
+ #     states: ['੦','◍']
+ #     reset: 0
     - name: emoji
-      states: [ ∷, ☻ ]
+      states: [ ' ∷ ', ' ☻ ' ]
       reset: 0
+    - options: [_key_paste_clip]
+      states: [" ☆ "]
     - options: [_key_Theme_settings]
       states: [" ◲ "]
-    - options: [_key_IME_switch]
-      states: [" ⋯ "]
     - options: [_key_Menu]
       states: ["  ⁝  "]
     - options: [_key_Hide]
-      states: [" ▾"]  
+      states: ["  ▾  "]  
       #states: ["⌵"]
-  translator/preedit_format: []   #候选窗口显示双拼码，不转换成全拼
-  speller:                        #模糊音
+  translator/preedit_format: []
+  speller:
     algebra:
       - derive/([i])n$/$1ng/            # in => ing
       - derive/([i])ng$/$1n/            # ing => in
