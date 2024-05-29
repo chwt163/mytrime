@@ -7,5 +7,3 @@ customization:
 patch:
   "style/color_scheme": metroblue   #选中的主题颜色
   "style/layout/corner_radius": 0   #候选窗口的边角弧度，0为直角
-  app_options/firefox.exe:    # 打开 firefox 时，默认英文模式
-    - inline_preedit: true
