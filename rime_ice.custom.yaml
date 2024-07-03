@@ -1,0 +1,42 @@
+# Rime schema
+# encoding: utf-8
+patch:
+  schema:
+    name: 拼音
+  switches:
+    - name: ascii_mode
+      states: [ '中文', ' ᴀʙᴄ ' ]
+      reset: 0
+    - name: emoji
+      states: [ ' ⋯ ', ' ☻ ' ]
+      reset: 0
+#    - name: traditionalization
+#      states: [ '简', '繁' ]
+#      reset: 0
+    - name: full_shape
+      states: [ '  ◗  ','  ⬥  ' ]
+      reset: 0
+    - name: ascii_punct
+      states: ['  ੦  ','  ◍  ']
+      reset: 0
+    - options: [_key_paste_clip]
+      states: [" ☆ "]
+#    - options: [_key_Theme_settings]
+#      states: [" ◲ "]
+    - options: [_key_Menu]
+      states: ["  ⁝  "]
+    - options: [_key_Hide]
+      states: [" ▾ "]  
+      #states: ["⌵"]
+  speller:
+    algebra:
+      # 韵母
+       - derive/in$/ing/
+       - derive/ing$/in/
+      # 拼音音节
+       - derive/^chen$/cheng/
+       - derive/^cheng$/chen/
+       - derive/^shen$/sheng/
+       - derive/^sheng$/shen/
+       - derive/^zhen$/zheng/
+       - derive/^zheng$/zhen/

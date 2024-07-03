@@ -1,0 +1,73 @@
+# Rime schema
+# encoding: utf-8
+patch:
+  schema:
+    name: 双拼
+  switches:
+    - name: ascii_mode
+      states: [ '中文', ' ᴀʙᴄ ' ]
+      reset: 0
+    - name: emoji
+      states: [ ' ⋯ ', ' ☻ ' ]
+      reset: 0
+#    - name: traditionalization
+#      states: [ '简', '繁' ]
+#      reset: 0
+    - name: full_shape
+      states: [ '  ◗  ','  ⬥  ' ]
+      reset: 0
+    - name: ascii_punct
+      states: ['  ੦  ','  ◍  ']
+      reset: 0
+    - options: [_key_paste_clip]
+      states: [" ☆ "]
+#    - options: [_key_Theme_settings]
+#      states: [" ◲ "]
+    - options: [_key_Menu]
+      states: ["  ⁝  "]
+    - options: [_key_Hide]
+      states: [" ▾ "]  
+      #states: ["⌵"]
+  translator/preedit_format: []
+  speller:
+    algebra:
+      - derive/([i])n$/$1ng/            # in => ing
+      - derive/([i])ng$/$1n/            # ing => in
+     # - derive/([e])n$/$1ng/            # en => eng
+     # - derive/([e])ng$/$1n/            # eng => en
+      - derive/^cheng$/chen/     # chen = cheng
+      - derive/^shen$/sheng/     # cheng = chen
+      - derive/^sheng$/shen/     # shen = sheng
+      - derive/^chen$/cheng/     # sheng = shen
+      - derive/^zheng$/zhen/     # zhen = zheng
+      - derive/^zhen$/zheng/     # zheng = zhen
+      - derive/^([jqxy])u$/$1v/
+      - derive/^([aoe])([ioun])$/$1$1$2/
+      - xform/^([aoe])(ng)?$/$1$1$2/
+      - xform/iu$/Ⓠ/
+      - xform/[iu]a$/Ⓦ/
+      - xform/[uv]an$/Ⓡ/
+      - xform/[uv]e$/Ⓣ/
+      - xform/ing$|uai$/Ⓨ/
+      - xform/^sh/Ⓤ/
+      - xform/^ch/Ⓘ/
+      - xform/^zh/Ⓥ/
+      - xform/uo$/Ⓞ/
+      - xform/[uv]n$/Ⓟ/
+      - xform/(.)i?ong$/$1Ⓢ/
+      - xform/[iu]ang$/Ⓓ/
+      - xform/(.)en$/$1Ⓕ/
+      - xform/(.)eng$/$1Ⓖ/
+      - xform/(.)ang$/$1Ⓗ/
+      - xform/ian$/Ⓜ/
+      - xform/(.)an$/$1Ⓙ/
+      - xform/iao$/Ⓒ/
+      - xform/(.)ao$/$1Ⓚ/
+      - xform/(.)ai$/$1Ⓛ/
+      - xform/(.)ei$/$1Ⓩ/
+      - xform/ie$/Ⓧ/
+      - xform/ui$/Ⓥ/
+      - xform/(.)ou$/$1Ⓑ/
+      - xform/in$/Ⓝ/
+      - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
+      # - abbrev/^(.).+$/$1/  # 首字母简拼，开启后会导致 3 个字母时 kj'x 变成 k'jx 的问题
