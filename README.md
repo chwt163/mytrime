@@ -38,7 +38,7 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件
 # 数字键盘：
 ![22](https://github.com/chwt163/mytrime/assets/70951194/ae65f5b7-c253-45e7-8313-86d284d76c0f)
 
-# 符号键盘
+# 符号键盘：
 ![33](https://github.com/chwt163/mytrime/assets/70951194/d907dd53-72df-4561-8c12-6687dbd1255d)
 
 
