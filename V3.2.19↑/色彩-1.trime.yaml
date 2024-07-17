@@ -36,7 +36,7 @@ style:
   comment_font: comment.ttf #编码提示字体
   comment_height: 14 #编码提示区高度
   comment_on_top: true #编码提示在上方或右侧
-  comment_text_size: 10 #编码提示字号
+  comment_text_size: 12 #编码提示字号
   hanb_font: hanb.ttf #扩充字体
   horizontal: true #水平模式
   horizontal_gap: *hgap #键水平间距
