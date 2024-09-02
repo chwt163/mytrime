@@ -10,7 +10,7 @@ double_pinyin.custom.yaml --- 自然码双拼的自定义文件
 
 weasel.custom.yaml --- Windwos 小狼毫输入法的主题皮肤自定义文件
 
-xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件
+xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，哪个版本的 trime 就下载哪个文件夹里的主题
 
 # 安卓主题说明
 
