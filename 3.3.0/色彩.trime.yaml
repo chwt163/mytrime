@@ -367,7 +367,7 @@ liquid_keyboard:
       - space3
       - BackSpace
       - Return2
-  keyboards: [tabs, candidate, clipboard,  collection, draft, symbol, cn, ascii, math, emoji, list,  pinyin, jp, grease, rusa, korea, lation, yinbiao, unit, ids, table]  #tab列表
+  keyboards: [tabs, clipboard,  collection, draft, symbol, cn, ascii, math, emoji, list,  pinyin, jp, grease, rusa, korea, lation, yinbiao, unit, ids, table]  #tab列表
   candidate:
     name: 候选
     type: CANDIDATE
