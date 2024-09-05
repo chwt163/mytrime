@@ -31,10 +31,10 @@ style:
   candidate_spacing: 0.5  #候选间距
   candidate_text_size: 20  #候选字号
   candidate_use_cursor: true #高亮候选项
-  candidate_view_height: 28 #候选区高度
+  candidate_view_height: 42 #候选区高度
   color_scheme: default #配色方案
   comment_font: comment.ttf #编码提示字体
-  comment_height: 14 #编码提示区高度
+  comment_height: 0 #编码提示区高度
   comment_on_top: true #编码提示在上方或右侧
   comment_text_size: 12 #编码提示字号
   hanb_font: hanb.ttf #扩充字体
@@ -103,13 +103,13 @@ style:
   vertical_gap: *sgap #键盘行距
   enter_label_mode: 0  #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels:  # 定义Enter键的文本
-    go: 前往
-    done: 完成
-    next: 下个
-    pre:  上个
-    search: 搜索
-    send: 发送
-    default: →   # 定义默认Enter键的文本
+    go: ➢
+    done: ➢
+    next: ➢
+    pre:  ➢
+    search: ➢
+    send: ➢
+    default: ➢   # 定义默认Enter键的文本
 
 fallback_colors:
   candidate_text_color: text_color
@@ -163,9 +163,9 @@ preset_color_schemes:
   default:
     name: 七彩 #方案名稱
     author: osfans #作者資訊
-    back_color: 0xE9E9E9 #候選區背景
+    back_color: 0xE0E0E0 #候選區背景
     border_color: 0xc1c7ca #邊框
-    candidate_separator_color: 0xE1DEDE #候選分割背景
+    candidate_separator_color: 0xd5d5d5 #候選分割背景
     candidate_text_color: 0x5a676e #候選文字
     comment_text_color: 0x7b868c #提示
     hilited_back_color: 0xccd3d7da #標明編碼背景
@@ -216,18 +216,19 @@ preset_color_schemes:
     c7: 0xffB69889 #
     c8: 0xffA1B763 #
     c9: 0xffB095B5 #
-    c10: 0xffAECCD7 #
+    c10: 0xffD7D6D6 #
     c11: 0xffA1B763 #
-    c12: 0xffB095B5 #
+    c12: 0xffD7D6D6 #
+    c13: 0xffD7D6D6 #
     
 #--------配色开始----------------#
 
   light:
     name: 浅色 #方案名稱
     author: osfans #作者資訊
-    back_color: 0xE9E9E9 #候選區背景
+    back_color: 0xE0E0E0 #候選區背景
     border_color: 0xc1c7ca #邊框
-    candidate_separator_color: 0xE1DEDE #候選分割背景
+    candidate_separator_color: 0xd5d5d5 #候選分割背景
     candidate_text_color: 0x5a676e #候選文字
     comment_text_color: 0x7b868c #提示
     hilited_back_color: 0xccd3d7da #標明編碼背景
@@ -278,16 +279,17 @@ preset_color_schemes:
     c7: 0xffB4B5B5 #
     c8: 0xE0E0E0 #
     c9: 0xE0E0E0 #
-    c10: 0xffB4B5B5 #
+    c10: 0xffD7D6D6 #
     c11: 0xffB4B5B5 #
-    c12: 0xffB4B5B5 #
+    c12: 0xffD7D6D6 #
+    c13: 0xffD7D6D6 #
     
   dark:
     name: 深色 #方案名稱
     author: osfans #作者資訊
     back_color: 0xff353535 #候选区背景状态栏
-    candidate_separator_color: 0xff2d2d2d #候选分割背景
-    candidate_text_color: 0xffd6d6d6 #候选文本
+    candidate_separator_color: 0xff2a2a2a #候选分割背景
+    candidate_text_color: 0xffc6c6c6 #候选文本
     comment_text_color: 0xff8f8f8f #提示
     hilited_back_color: 0xff565656 #高亮编码背景
     hilited_candidate_back_color: 0xff292E32 #高亮候选背景
@@ -301,7 +303,7 @@ preset_color_schemes:
     hilited_text_color: 0xffd6d6d6 #高亮编码
     key_back_color: 0xff414141 #按键背景
     key_symbol_color: 0xffbfbfbf #按键符号
-    key_text_color: 0xffd6d6d6 #按键文本
+    key_text_color: 0xffc6c6c6 #按键文本
     keyboard_back_color: 0xff2d2d2d #键盘背景
     label_color: 0xffa8a8a8 #标签
     off_key_back_color: *color4  #按键关闭状态背景
@@ -311,23 +313,23 @@ preset_color_schemes:
     text_color: 0xffd6d6d6 #编码
     text_back_color: 0xff292E32 #编码区背景
     bkg: 0xff464646 #空格键背景色
-    tkg: 0xffd6d6d6 #空格键文字颜色
+    tkg: 0xffc6c6c6 #空格键文字颜色
     benter: 0xff3266a0 #回车键背景色
-    tenter: 0xffececec #回车键文字颜色
+    tenter: 0xffc6c6c6 #回车键文字颜色
     bgn: 0xff373737 #功能键背景色
-    tgn: 0xffd6d6d6 #功能键文字颜色
+    tgn: 0xffc6c6c6 #功能键文字颜色
     bbs: 0xff475056 #退格键背景色
-    tbs: 0xffd6d6d6 #退格键文字颜色
+    tbs: 0xffc6c6c6 #退格键文字颜色
     baoe: 0xff565656 #aoeiu背景色
-    taoe: 0xffd6d6d6 #aoeiu文字颜色
+    taoe: 0xffc6c6c6 #aoeiu文字颜色
     bh1: 0xff494949 #第一行背景色
-    th1: 0xffd6d6d6 #第一行文字颜色
+    th1: 0xffc6c6c6 #第一行文字颜色
     bh2: 0xff494949 #第二行背景色
-    th2: 0xffd6d6d6 #第二行文字颜色
+    th2: 0xffc6c6c6 #第二行文字颜色
     bh3: 0xff494949 #第三行背景色
-    th3: 0xffd6d6d6 #第三行文字颜色
+    th3: 0xffc6c6c6 #第三行文字颜色
     bh4: 0xff494949 #第四行背景色
-    th4: 0xffd6d6d6 #第四行文字颜色
+    th4: 0xffc6c6c6 #第四行文字颜色
     bh5: 0xff494949 #第五行背景色
     bh6: 0xff505050 #
     c1: 0xff373737 #
@@ -342,6 +344,7 @@ preset_color_schemes:
     c10: 0xff373737 #
     c11: 0xff373737 #
     c12: 0xff373737 #
+    c13: 0xff373737 #
 
 #--------配色结束----------------#
 
@@ -364,7 +367,10 @@ liquid_keyboard:
       - space3
       - BackSpace
       - Return2
-  keyboards: [tabs, clipboard,  collection, draft, symbol, cn, ascii, math, emoji, list,  pinyin, jp, grease, rusa, korea, lation, yinbiao, unit, ids, table]  #tab列表
+  keyboards: [tabs, candidate, clipboard,  collection, draft, symbol, cn, ascii, math, emoji, list,  pinyin, jp, grease, rusa, korea, lation, yinbiao, unit, ids, table]  #tab列表
+  candidate:
+    name: 候选
+    type: CANDIDATE
   exit:
     name: " ▾ "
     type: NO_KEY
@@ -510,7 +516,7 @@ preset_keyboards:
       - {width: 0, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L, label: '',  composing: delimiter, width: 11.5, hilited_key_back_color: c3, key_back_color: c3, key_text_color: tbs, key_text_size: 18}
-      - {width: 11, click: z, long_click: '~', key_symbol_offset_x: 9,   swipe_down: '~', key_back_color: bh3, key_text_color: th3}
+      - {width: 11, click: z, long_click: '-', key_symbol_offset_x: 9,   swipe_down: '-', key_back_color: bh3, key_text_color: th3}
       - {width: 11, click: x, long_click: cut1, symbol_text_size: 8, key_symbol_offset_x: 7, swipe_down: 'cut', key_back_color: bh3, key_text_color: th3}
       - {width: 11, click: c, long_click: copy1, symbol_text_size: 8, key_symbol_offset_x: 7, swipe_down: 'copy', key_back_color: bh3, key_text_color: th3}
       - {width: 11, click: v, long_click: 'paste', symbol_text_size: 8, key_symbol_offset_x: 7, swipe_down: paste, key_back_color: bh3, key_text_color: th3}
@@ -524,7 +530,7 @@ preset_keyboards:
       - {width: 11, click: ',', label: '，', key_text_offset_x: 4, long_click: '!', key_symbol_offset_x: 9, key_back_color: c8, key_text_color: th4}
       - {click: space, ascii: space2, key_text_size: 12, long_click: ,  key_symbol_offset_x: 40, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switchcn, width: 30, key_back_color: bh4, key_text_color: tkg}
       - {width: 11, click: '.', label: '  。', long_click: '?',  key_symbol_offset_x: 9, key_back_color: c9, key_text_color: th4}
-      - {width: 11, click: 'liquid_keyboard_clipboard', key_text_size: 14, long_click: 'Color_switch', key_symbol_offset_x: 9, key_back_color: c2, key_text_color: th4}
+      - {width: 11, click: 'liquid_keyboard_clipboard', key_text_size: 14, long_click: 'Color_switch', key_symbol_offset_x: 9, has_menu: liquid_keyboard_candidate,  key_back_color: c2, key_text_color: th4}
       - {click: Return, composing: Return1, swipe_up: Escape, width: 13, key_text_size: 16, key_back_color: c5, key_text_color: tenter}
 
   letter:
@@ -619,8 +625,8 @@ preset_keyboards:
       - { click: "/", long_click: paste_clip,  key_symbol_offset_x: 13, key_back_color: c12, key_text_color: tgn, key_text_size: 16 }
       - { click: 'space1', width: 15, key_back_color: c10, key_text_color: tgn, key_text_size: 26, key_text_offset_y: -10 }
       - { click: 0, width: 15, key_back_color: bh1, key_text_color: tgn, key_text_size: 18 }
-      - { click: ".", label: '  。', long_click: ':', key_symbol_offset_x: 13, width: 13, key_back_color: c2, key_text_color: tgn, key_text_size: 16 }
-      - { click: Return, width: 13, key_back_color: benter, key_text_color: tenter, key_text_size: 16 }
+      - { click: ".", label: '  。', long_click: ':', key_symbol_offset_x: 13, width: 15, key_back_color: c13, key_text_color: tgn, key_text_size: 16 }
+      - { click: Return, key_back_color: benter, key_text_color: tenter, key_text_size: 16 }
 
   numberb:
     ascii_mode: 1
@@ -3515,7 +3521,7 @@ preset_keys:
   Shift_L: {label: ↑, preview: '⇪', functional: false, send: Shift_L}
   Return: { label: enter_labels, preview: '↩', functional: false, send: Return }
   Return1: {label: enter_labels, preview: '↩', functional: false, send: Return}
-  Return2: {label: ' ⏎  ', send: Return }
+  Return2: {label: ' ➢ ', send: Return }
   Hide: {label: ⌵, send: BACK}
   BackSpace: {label: '⌫ ', preview: '⇦', repeatable: true, functional: true, send: BackSpace}
   BackSpace1: {label: 删除, preview: '⇦', repeatable: true, functional: true, send: BackSpace}
@@ -3603,7 +3609,7 @@ preset_keys:
   Color_switch: {label: ◑, functional: false, send: PROG_RED}
   Help: {label: 说明, send: Help}
   Info: {label: 关于, send: INFO}
-  Menu: {label: '⁝', functional: false, send: Menu}
+  Menu: {label: '┇', functional: false, send: Menu}
   Settings: {label: 设置, functional: false, send: SETTINGS}
   # trime命令
   Date: {label: 日期, send: function, command: date, option: " yyyy-MM-dd "}
