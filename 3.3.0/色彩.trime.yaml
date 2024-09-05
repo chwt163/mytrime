@@ -530,7 +530,7 @@ preset_keyboards:
       - {width: 10, click: ',', label: '，', key_text_offset_x: 4, long_click: '!', key_symbol_offset_x: 9, key_back_color: c8, key_text_color: th4}
       - {click: space, ascii: space2, key_text_size: 12, long_click: ,  key_symbol_offset_x: 40, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switchcn, width: 30, key_back_color: bh4, key_text_color: tkg}
       - {width: 10, click: '.', label: '  。', long_click: '?',  key_symbol_offset_x: 9, key_back_color: c9, key_text_color: th4}
-      - {width: 10, click: 'liquid_keyboard_clipboard', key_text_size: 14, long_click: 'Color_switch', key_symbol_offset_x: 9, has_menu: liquid_keyboard_candidate,  key_back_color: c2, key_text_color: th4}
+      - {width: 10, click: 'liquid_keyboard_clipboard', key_text_size: 14, long_click: 'Color_switch', key_symbol_offset_x: 9, key_back_color: c2, key_text_color: th4}
       - {click: Return, composing: Return1, swipe_up: Escape, width: 15, key_text_size: 16, key_back_color: c5, key_text_color: tenter}
 
   letter:
