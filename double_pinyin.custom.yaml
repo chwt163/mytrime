@@ -1,35 +1,58 @@
 # Rime schema
 # encoding: utf-8
 patch:
+
+# 方案说明
   schema:
+    schema_id: double_pinyin
     name: 双拼
+    version: "1"
+    author:
+      - Dvel
+    description: |
+      雾凇拼音 - 自然码双拼
+      https://github.com/iDvel/rime-ice
+    dependencies:
+      - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
+      - radical_pinyin  # 部件拆字，反查及辅码
+
+# 开关
   switches:
+    #- name: _hide_comment  
+     # reset: 1 #隐藏候选栏注释
     - name: ascii_mode
       states: [ '中文', ' ᴀʙᴄ ' ]
       reset: 0
-    - name: emoji
-      states: [ ' ⋯ ', ' ☻ ' ]
+ #   - name: emoji
+ #     states: [ ' ┅ ', ' ☻ ' ]
+ #     reset: 0
+    - name: traditionalization
+      states: [ ' ♂ ', ' ♀ ' ]
       reset: 0
-#    - name: traditionalization
-#      states: [ '简', '繁' ]
-#      reset: 0
     - name: full_shape
       states: [ '  ◗  ','  ⬥  ' ]
       reset: 0
     - name: ascii_punct
       states: ['  ੦  ','  ◍  ']
       reset: 0
-    - options: [_key_paste_clip]
+    - options: [_key_paste]
       states: [" ☆ "]
 #    - options: [_key_Theme_settings]
 #      states: [" ◲ "]
     - options: [_key_Menu]
       states: ["  ⁝  "]
     - options: [_key_Hide]
-      states: [" ▾ "]  
+      states: [" ▾"]  
       #states: ["⌵"]
-  translator/preedit_format: []
+ # translator/preedit_format: []
+
+# 拼写设定
   speller:
+    # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+    alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`/
+    # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+    initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+    delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
     algebra:
       - derive/([i])n$/$1ng/            # in => ing
       - derive/([i])ng$/$1n/            # ing => in
