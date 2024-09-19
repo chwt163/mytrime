@@ -23,9 +23,7 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 
 # one_hand 笔顺说明：
 
-1、一个输入法不能没有形码，因为有很多字我不会读，所以增加了 stroke 和 one_hand 这两个笔画输入法布局，个人觉得后者比较好用，但其实他们相比大厂的差距都比较大。
-
-2、one_hand 笔顺的最小安装只需下载三个文件，下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)：
+1、one_hand 笔顺的最小安装只需下载三个文件，下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)：
 
 ```
 one_hand.schema.yaml
@@ -35,7 +33,7 @@ one_hand.dict.yaml
 one_hand.text.dict.yaml
 ```
 
-3、one_hand 笔顺没有对安卓的虚拟键盘做匹配，需要对 one_hand.schema.yaml 作一些更改，添加模糊音：
+2、one_hand 笔顺没有对安卓的虚拟键盘做匹配，需要对 one_hand.schema.yaml 作一些更改，添加模糊音：
 
 ```
   algebra:
@@ -46,7 +44,7 @@ one_hand.text.dict.yaml
     - derive/^5/0/
 ```
 
-4、one_hand 笔顺有三个词库文件，其中两个体积比较大，个人觉得保留单字就足够了，可以在 one_hand.dict.yaml 里面注释掉：
+3、one_hand 笔顺有三个词库文件，其中两个体积比较大，个人觉得保留单字就足够了，可以在 one_hand.dict.yaml 里面注释掉：
 
 ```
 import_tables:
