@@ -1,0 +1,41 @@
+# Rime 单手笔顺输入法 3.0 版，一善鱼 YQ-YSY <YQ-YSY@163.com>
+# 单手笔顺输入法（3.0 Rime版）软件，开源网址： https://gitee.com/yq-ysy/one-hand_-rime 或 https://github.com/YQ-YSY/one-hand_Rime
+# 单手笔顺输入法（3.0版）TXT码表，开源网址： https://gitee.com/yq-ysy/one-hand_code 或 https://github.com/YQ-YSY/stroke-seq_MB
+# 编码 utf-8 
+# 使用 UNIX 换行符（LF）
+# 鉴于一些文本编辑器会为 UTF-8 编码的文件添加 BOM 标记，为了防止误将该字符混入文中， 不要从文件的第一行开始正文，而请在该行行首以 # 记号起一行注释
+# one_hand.dict.yaml 词典配置
+# 这是单手笔顺输入法的词典配置文件，在 Rime 中需要使用 one_hand.schema.yaml 文件，在 translator: 段落里，用 dictionary: 指定本文件。
+# 词典文件由一善鱼 YQ-YSY <YQ-YSY@163.com> 整理，本文件用于指定调用的“子词库”文件。
+# 词库文件包含：单字码表近3万，核心词库36万，扩展词库243万。
+
+---
+name: one_hand                    # 字典名称，确保与字典文件前端名称一致
+version: "3.0"                    # 版本号
+use_preset_vocabulary: ture       # 是否使用用户预设词汇
+sort: by_weight                   # 字典初始排序，可选original或by_weight，by_weight 意图是不以码表的顺序排列重码字，而是比较字频。
+
+import_tables:
+  - one_hand.text                 # 单字及标点符号数字序号，20988个汉字
+  #- one_hand.guanjian             # 关键词库，54万——很大
+  #- one_hand.changyong            # 常用词汇短语，192万——特大
+
+# 默认开启了“单字”和“关键词库”及“常用词汇短语”，规范纯净，基本够用。
+# 扩展词库是由网络下载的网友共享词库汇集而成，数据量太大，所包含的错别字词长句难以剔除，请见凉。
+# 扩展词库下载并解压缩后，放在与 one_hand.schema.yaml 文件相同的目录下。如果找不到文件，部署时会提示出错。
+# 想开启哪个分类，只需在下方列表中，把相应那一行前面的 # 号取消即可（保留二个空格和横线）。
+# 注意：Windows 系统下，不能全部都开启，因为数据量太大，Rime无法部署，只能选择部分开启。
+# 在 Linux 系统下可以全部开启，Rime重新部署的时间也只需等待一分半钟，之后打字不会慢。
+
+#  - one_hand.caijing              # 财经股票证券，5万5
+#  - one_hand.chengyu              # 成语俗语，4万9
+#  - one_hand.dili                 # 天文地理海洋，2万3
+#  - one_hand.foxue                # 佛学词汇，51万——较大
+#  - one_hand.gushi                # 古诗词，37万——很大
+#  - one_hand.jidian               # 机械电子汽车，2万1
+#  - one_hand.renming              # 历史新闻常见人名，7万4
+#  - one_hand.shengwu              # 农林动植生物，21万——大
+#  - one_hand.shulihua             # 数理化计算机，6万7
+#  - one_hand.tiyu                 # 体育及运动员，8千
+#  - one_hand.yixue                # 中西医学医药，18万——大
+#  - one_hand.zhuzi                # 诸子百家孔老周易，2万3
