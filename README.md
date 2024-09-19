@@ -26,6 +26,8 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 
 点击符号按钮，中文模式时打开的就是中文符号键盘，英文模式时打开的就是英文符号键盘。
 
+这里是同文皮肤主题的修改教程：
+[trime.yaml詳解](https://github.com/mrhso/trime/wiki/trime.yaml%E8%A9%B3%E8%A7%A3)
 
 # one_hand 笔顺说明：
 
