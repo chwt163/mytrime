@@ -18,7 +18,7 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 
 `两个切换按钮同时使用会有一点点交互上的小冲突，建议保留一个键盘上的中英切换就好了。`
 
-增加了 [stroke](https://github.com/rime/rime-stroke) 和 [one_hand](https://gitee.com/yq-ysy/one-hand_-rime) 这两个笔画输入法布局，个人觉得后者比较好用，但其实他们相比大厂的差距都比较大。
+增加了 [stroke](https://github.com/rime/rime-stroke) 和 [one_hand](https://gitee.com/yq-ysy/one-hand_-rime) 这两个笔画输入法布局，遇到不会拼音的生僻字，也是用得上的。个人觉得后者比较好用，虽然其实，他们比起大厂做的笔画输入，还是有差距的。
 
 长按或下滑，就是输出按键右上角的数字或符号，可以编辑 xxx.trime.yaml 文件，自行设定上下左右各个方向的下滑功能。
 
