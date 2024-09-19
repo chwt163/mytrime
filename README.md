@@ -27,13 +27,16 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 
 2、one_hand 笔顺的最小安装只需下载三个文件，下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)：
 
+```
 one_hand.schema.yaml
 
 one_hand.dict.yaml
 
 one_hand.text.dict.yaml
+```
 
 3、one_hand 笔顺没有对安卓的虚拟键盘做匹配，需要对 one_hand.schema.yaml 作一些更改，添加模糊音：
+
 ```
   algebra:
     - derive/^1/7/
@@ -44,6 +47,7 @@ one_hand.text.dict.yaml
 ```
 
 4、one_hand 笔顺有三个词库文件，其中两个体积比较大，个人觉得保留单字就足够了，可以在 one_hand.dict.yaml 里面注释掉：
+
 ```
 import_tables:
   - one_hand.text                 # 单字及标点符号数字序号，20988个汉字
