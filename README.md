@@ -39,7 +39,7 @@ one_hand.dict.yaml
 one_hand.text.dict.yaml
 ```
 
-2、one_hand 笔顺没有对安卓的虚拟键盘做匹配，需要对 one_hand.schema.yaml 作一些更改，添加模糊音：
+2、one_hand 笔顺没有对安卓的虚拟键盘做匹配优化，可以对 one_hand.schema.yaml 作一些更改，添加模糊音：
 
 ```
   algebra:
