@@ -39,6 +39,8 @@ one_hand.dict.yaml
 one_hand.text.dict.yaml
 ```
 
+[也可以直接在这里下载](https://github.com/chwt163/mytrime/tree/main/one_hand%20%E7%AC%94%E9%A1%BA)
+
 2、one_hand 笔顺没有对安卓的虚拟键盘做匹配优化，可以对 one_hand.schema.yaml 作一些更改，添加模糊音：
 
 ```
