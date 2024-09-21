@@ -44,9 +44,6 @@ one_hand 笔顺输入方案的下载地址：[one_hand](https://gitee.com/yq-ysy
 ![常规-黑色](https://github.com/user-attachments/assets/7a7e2cd0-15e0-4d37-9aa5-1044d3cd7436)
 
 
-![大大按键-彩色](https://github.com/user-attachments/assets/1cc3d15e-c45b-4270-857a-5d98ee88efa2)
-
-
 ![大大按键-灰色](https://github.com/user-attachments/assets/934d1039-eac3-4fe9-b9e2-912134588ea1)
 
 
