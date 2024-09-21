@@ -58,48 +58,4 @@ one_hand 笔顺输入方案的下载地址：[one_hand](https://gitee.com/yq-ysy
 
 
 
-# one_hand 笔顺说明：
 
-1、one_hand 笔顺的最小安装只需下载三个文件，下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)：
-
-```
-one_hand.schema.yaml
-
-one_hand.dict.yaml
-
-one_hand.text.dict.yaml
-```
-
-[也可以直接在这里下载已经更改好的可以直接使用的方案文件](https://github.com/chwt163/mytrime/tree/main/one_hand%20%E7%AC%94%E9%A1%BA)
-
-2、one_hand 笔顺没有对安卓的虚拟键盘做匹配优化，可以对 one_hand.schema.yaml 作一些更改，添加模糊音：
-
-```
-  algebra:
-    - derive/^1/7/
-    - derive/^2/8/
-    - derive/^3/9/
-    - derive/^4/6/
-    - derive/^5/0/
-```
-
-让候选栏显示笔画而不是数字，在 `translator:` 下面添加：
-
-```
-  preedit_format:
-    - xform/1/一/
-    - xform/2/丨/
-    - xform/3/丿/
-    - xform/4/丶/
-    - xform/5/𠃋/
-
-```
-
-3、one_hand 笔顺有三个词库文件，其中两个体积比较大，个人觉得保留单字就足够了，可以在 one_hand.dict.yaml 里面注释掉：
-
-```
-import_tables:
-  - one_hand.text                 # 单字及标点符号数字序号，20988个汉字
-  #- one_hand.guanjian             # 关键词库，54万——很大
-  #- one_hand.changyong            # 常用词汇短语，192万——特大
-```
