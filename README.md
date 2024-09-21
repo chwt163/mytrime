@@ -51,7 +51,8 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 ![大大按键-黛色](https://github.com/user-attachments/assets/eee63f96-c8bf-4e3f-a597-faf401813ecd)
 
 
-![笔顺](https://github.com/user-attachments/assets/bd8cad51-5a5f-4115-8518-f1cba0c4fd90)
+![笔顺](https://github.com/user-attachments/assets/2ddbf712-a111-4ba9-b952-f25b4bea6714)
+
 
 
 
