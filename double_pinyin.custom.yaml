@@ -23,9 +23,9 @@ patch:
    # - name: ascii_mode
    #   states: [ '中文', ' ᴀʙᴄ ' ]
    #   reset: 0
- #   - name: emoji
- #     states: [ ' ┅ ', ' ☻ ' ]
- #     reset: 0
+    - name: emoji
+      states: [ ' ┅ ', ' ☻ ' ]
+      reset: 0
     - name: traditionalization
       states: [ ' ♂ ', ' ♀ ' ]
       reset: 0
