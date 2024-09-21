@@ -2,7 +2,7 @@
 
 我的 rime 配置文件
 
-double_pinyin.custom.yaml --- 自然码双拼的自定义文件，适合安卓版 trime，不适合 windows 版小狼毫
+double_pinyin.custom.yaml --- 自然码双拼的自定义文件，适合安卓版 trime，不适合 windows 版小狼毫。这是我的个性化定制，仅供参考。
 
 weasel.custom.yaml --- Windwos 小狼毫输入法的主题皮肤自定义文件
 
