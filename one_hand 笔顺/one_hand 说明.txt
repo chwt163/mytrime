@@ -15,6 +15,18 @@ one_hand.text.dict.yaml
     - derive/^4/6/
     - derive/^5/0/
 
+让候选栏显示笔画而不是数字，在 translator: 下面添加：
+
+
+  preedit_format:
+    - xform/1/一/
+    - xform/2/丨/
+    - xform/3/丿/
+    - xform/4/丶/
+    - xform/5/𠃋/
+
+
+
 4、one_hand 笔顺有三个词库文件，其中两个体积比较大，个人觉得保留单字就足够了，可以在 one_hand.dict.yaml 里面注释掉：
 
 import_tables:
