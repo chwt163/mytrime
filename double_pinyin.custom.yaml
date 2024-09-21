@@ -20,9 +20,9 @@ patch:
   switches:
     #- name: _hide_comment  
      # reset: 1 #隐藏候选栏注释
-    - name: ascii_mode
-      states: [ '中文', ' ᴀʙᴄ ' ]
-      reset: 0
+   # - name: ascii_mode
+   #   states: [ '中文', ' ᴀʙᴄ ' ]
+   #   reset: 0
  #   - name: emoji
  #     states: [ ' ┅ ', ' ☻ ' ]
  #     reset: 0
