@@ -29,7 +29,8 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 这里是同文皮肤主题的修改教程：
 [trime.yaml詳解](https://github.com/mrhso/trime/wiki/trime.yaml%E8%A9%B3%E8%A7%A3)
 
-one_hand 笔顺输入方案的下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)，[也可以在这里下载已经更改好的可以直接使用的方案文件](https://github.com/chwt163/mytrime/tree/main/one_hand%20%E7%AC%94%E9%A1%BA)
+one_hand 笔顺输入方案的下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)
+也可以在这里下载，已经更改好的可以直接使用：[one_hand笔顺方案文件](https://github.com/chwt163/mytrime/tree/main/one_hand%20%E7%AC%94%E9%A1%BA)
 
 
 # 截图：
