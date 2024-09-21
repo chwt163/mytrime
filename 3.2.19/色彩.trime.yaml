@@ -3390,8 +3390,8 @@ preset_keyboards:
           __include: styl/off_key,
           key_back_color: c3, 
         }     
-      - { click: Keyboard_letter1,
-          #click: Mode_switch,
+      - { #click: Keyboard_letter1,
+          click: Mode_switch,
           #composing: Tab,
           long_click: Color_switch,
           key_text_size: 16, 
