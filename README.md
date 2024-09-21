@@ -29,6 +29,32 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 这里是同文皮肤主题的修改教程：
 [trime.yaml詳解](https://github.com/mrhso/trime/wiki/trime.yaml%E8%A9%B3%E8%A7%A3)
 
+
+
+# 截图：
+
+![常规-彩色](https://github.com/user-attachments/assets/0036136b-1074-422c-8307-f1c6d1e3a759)
+
+
+![常规-白色](https://github.com/user-attachments/assets/441c4d3f-72fd-4a5c-9a54-fd3bd17522e4)
+
+
+![常规-黑色](https://github.com/user-attachments/assets/7a7e2cd0-15e0-4d37-9aa5-1044d3cd7436)
+
+
+![大大按键-彩色](https://github.com/user-attachments/assets/1cc3d15e-c45b-4270-857a-5d98ee88efa2)
+
+
+![大大按键-灰色](https://github.com/user-attachments/assets/934d1039-eac3-4fe9-b9e2-912134588ea1)
+
+
+![大大按键-黛色](https://github.com/user-attachments/assets/eee63f96-c8bf-4e3f-a597-faf401813ecd)
+
+
+![笔顺](https://github.com/user-attachments/assets/bd8cad51-5a5f-4115-8518-f1cba0c4fd90)
+
+
+
 # one_hand 笔顺说明：
 
 1、one_hand 笔顺的最小安装只需下载三个文件，下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)：
@@ -74,36 +100,3 @@ import_tables:
   #- one_hand.guanjian             # 关键词库，54万——很大
   #- one_hand.changyong            # 常用词汇短语，192万——特大
 ```
-
-# 截图：
-
-![常规-彩色](https://github.com/user-attachments/assets/0036136b-1074-422c-8307-f1c6d1e3a759)
-
-
-![常规-白色](https://github.com/user-attachments/assets/441c4d3f-72fd-4a5c-9a54-fd3bd17522e4)
-
-
-![常规-黑色](https://github.com/user-attachments/assets/7a7e2cd0-15e0-4d37-9aa5-1044d3cd7436)
-
-
-![大大按键-彩色](https://github.com/user-attachments/assets/1cc3d15e-c45b-4270-857a-5d98ee88efa2)
-
-
-![大大按键-灰色](https://github.com/user-attachments/assets/934d1039-eac3-4fe9-b9e2-912134588ea1)
-
-
-![大大按键-黛色](https://github.com/user-attachments/assets/eee63f96-c8bf-4e3f-a597-faf401813ecd)
-
-
-![笔顺](https://github.com/user-attachments/assets/bd8cad51-5a5f-4115-8518-f1cba0c4fd90)
-
-
-
-
-
-
-
-
-
-
-
