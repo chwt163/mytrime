@@ -13,7 +13,7 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 三个主题是按键大小的区别，功能是一样的。每个主题都有“彩、黑、黛、灰、白”五个颜色。
 
 
-增加了 [stroke](https://github.com/rime/rime-stroke) 和 [one_hand](https://gitee.com/yq-ysy/one-hand_-rime) 这两个笔画输入法布局，遇到不会拼音的生僻字，也是用得上的。个人觉得后者比较好用，虽然其实，他们比起大厂做的笔画输入，还是有差距的。
+增加了 [stroke](https://github.com/rime/rime-stroke) 笔画输入法布局，遇到不会拼音的生僻字，也是用得上的。
 
 长按或下滑，就是输出按键右上角的数字或符号，可以编辑 xxx.trime.yaml 文件，自行设定上下左右各个方向的下滑功能。
 
@@ -23,9 +23,6 @@ xxx.trime.yaml --- 安卓 trime 同文输入法的主题皮肤文件，按照 tr
 
 这里是同文皮肤主题的修改教程：
 [trime.yaml詳解](https://github.com/mrhso/trime/wiki/trime.yaml%E8%A9%B3%E8%A7%A3)
-
-one_hand 笔顺输入方案的下载地址：[one_hand](https://gitee.com/yq-ysy/one-hand_-rime)。
-也可以下载我更改好的，可以直接使用：[one_hand笔顺方案文件](https://github.com/chwt163/mytrime/tree/main/one_hand%20%E7%AC%94%E9%A1%BA)
 
 
 # 截图：
