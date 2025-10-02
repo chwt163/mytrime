@@ -155,7 +155,7 @@ preset_color_schemes:
     name: "标准配色！"  #方案名称
     author: 风花絮 #作者信息
     dark_scheme: steam
-    back_color: *color2 #候选区背景状态栏
+    back_color: *color3 #候选区背景状态栏
     candidate_separator_color: *color2 #候选分割背景
     candidate_text_color: *color1 #候选文本
     comment_text_color: *color3 #提示
