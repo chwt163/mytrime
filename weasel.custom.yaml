@@ -1,9 +1,0 @@
-customization:
-  distribution_code_name: Weasel
-  distribution_version: 0.15.0.0
-  generator: "Weasel::UIStyleSettings"
-  modified_time: "Mon Nov 27 20:17:40 2023"
-  rime_version: 1.8.5
-patch:
-  "style/color_scheme": metroblue   #选中的主题颜色
-  "style/layout/corner_radius": 0   #候选窗口的边角弧度，0为直角
