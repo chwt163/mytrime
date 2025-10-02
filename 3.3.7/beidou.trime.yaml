@@ -723,7 +723,7 @@ preset_keyboards:
     lock: true
     __include: preset_keyboards/default
     __patch:
-      - 'keys/@33/long_click': 'Keyboard_default1'
+      - 'keys/@31/long_click': 'Keyboard_default1'
 
 
   number:
