@@ -3773,7 +3773,7 @@ preset_keys:
   Keyboard_default1: { label: 'A/中', send: Eisu_toggle, select: .default }
   Keyboard_switch: { label: 键盘, functional: true, send: Eisu_toggle, select: .next }
   Keyboard_number: { label: 123, functional: false, send: Eisu_toggle, select: number }
-  Keyboard_numberb: { label: 123, functional: false, send: Eisu_toggle, select: numberb }
+  Keyboard_numberb: { label: ‹ɪ›, functional: false, send: Eisu_toggle, select: numberb }
   Keyboard_symbols: { label: 更多, functional: false, send: Eisu_toggle, select: symbols }
   Keyboard_move: { label: ❖, functional: true, send: Eisu_toggle, select: move }
   Keyboard_next: { label: 后退, functional: false, send: Eisu_toggle, select: .next }
