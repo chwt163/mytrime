@@ -718,7 +718,7 @@ preset_keyboards:
       - {click: b, long_click: ";", swipe_down: ";", key_back_color: bh3, key_text_color: th3}
       - {click: n, long_click: ":", swipe_down: ':', key_back_color: bh3, key_text_color: th3}
       - {click: m, long_click: '/', swipe_down: '/', key_back_color: bh3, key_text_color: th3}
-      - {click: BackSpace, width: 15, key_back_color: c2, key_text_color: th1}
+      - {click: BackSpace, swipe_up: 'Escape', width: 15, key_back_color: c2, key_text_color: th1}
     #  第四行
       - {click: Keyboard_bqfh1, ascii: Keyboard_bqfh3-2, composing: Escape, long_click: Theme_settings, swipe_up: 'Theme_settings', width: 15, key_text_size: "16", key_symbol_offset_x: 15, key_back_color: c3, key_text_color: th1}
       - {click: Keyboard_number, long_click: Color_switch, swipe_up: 'Color_switch', width: 10, key_symbol_offset_y: -4, symbol_text_size: 14, key_back_color: c4, key_text_color: th1}
