@@ -654,8 +654,8 @@ tool_bar:
 
   paste_button: &paste_button
     foreground:
-     # style: "ic@arrange-bring-forward"
-      style: "ic@clipboard-text-outline"
+      style: "ic@clipboard-text"
+     # style: "ic@clipboard-text-outline"
       font_size: 14
     action: paste
 
