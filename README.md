@@ -2,6 +2,8 @@
 这里是同文皮肤主题的修改教程：
 [trime.yaml詳解](https://github.com/mrhso/trime/wiki/trime.yaml%E8%A9%B3%E8%A7%A3)
 
+长按或者上滑符号键、数字键、删除键，可以快捷打开主题、颜色、清空候选。
+
 
 # 截图：
 
