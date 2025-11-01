@@ -10,8 +10,8 @@
 
 <img width="720" height="2213" alt="color trime" src="https://github.com/user-attachments/assets/2fc76b8a-4a37-4198-9459-adacbbcde6ab" />
 
+<img width="720" height="2368" alt="Screenshot-2" src="https://github.com/user-attachments/assets/427d2f51-123d-403e-b1ba-8ee052dcc77c" />
 
-<img width="720" height="1106" alt="color trime-1" src="https://github.com/user-attachments/assets/3c8b130b-0795-4a4c-9cee-d85fea6bafe7" />
 
 # 北斗是七列布局：
 
