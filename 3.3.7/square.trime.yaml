@@ -777,11 +777,11 @@ tool_bar:
 
   edit_button: &edit_button
     foreground:
-     # style: "ic@alpha-i"
+      style: "ic@alpha-i"
      # style: "ic@alpha-i-box"
      # style: "ic@alpha-i-circle"
-      style: "◂𝐈▸"
-      font_size: 16
+     # style: "◂𝐈▸"
+      font_size: 12
     action: Keyboard_numberb
 
   ascii_mode_button: &ascii_mode_button
