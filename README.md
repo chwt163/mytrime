@@ -28,10 +28,14 @@
 
 <img width="720" height="2213" alt="color trime" src="https://github.com/user-attachments/assets/2fc76b8a-4a37-4198-9459-adacbbcde6ab" />
 
+![Screenshot_2025-11-16-14-23-17-20_5cd225ada6153df039aa0f4408fcc4ec](https://github.com/user-attachments/assets/3b288613-5299-41a4-b550-c51fb9caae36)
+
+
 <img width="720" height="2368" alt="Screenshot-2" src="https://github.com/user-attachments/assets/427d2f51-123d-403e-b1ba-8ee052dcc77c" />
 
 
-# 七列布局：
+# 七列：
 
 
-![QQ图片20251019105508](https://github.com/user-attachments/assets/48534ea7-1340-4d0f-b125-cbe0b5c82ca0)
+![Screenshot_2025-11-16-14-26-49-43_5cd225ada6153df039aa0f4408fcc4ec](https://github.com/user-attachments/assets/641bd1bf-7f48-43a9-87cf-f88a63d991e2)
+
