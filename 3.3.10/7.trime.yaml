@@ -803,7 +803,7 @@ preset_keyboards:
       - {click: o, popup: ["9", "o-p", "O-p"], label_symbol: '9', swipe_down: '9', key_back_color: bh1, key_text_color: th1}
       - {click: p, popup: ["0", "p-p", "P-p"], label_symbol: '0', swipe_down: '0', key_back_color: bh1, key_text_color: th1}
       # 第二行
-      - {click: a, popup: ["select_all", A"-p", "a-p"], label_symbol: 'ic@checkbox-marked-outline', swipe_down: 'select_all', symbol_text_size: 8, key_symbol_offset_y: 3, key_back_color: bh2, key_text_color: th2}
+      - {click: a, popup: ["select_all", "A-p", "a-p"], label_symbol: 'ic@checkbox-marked-outline', swipe_down: 'select_all', symbol_text_size: 8, key_symbol_offset_y: 3, key_back_color: bh2, key_text_color: th2}
       - {click: s, popup: ["`", "s-p", "S-p"], label_symbol: '`', swipe_down: '`', key_back_color: bh2, key_text_color: th2}
       - {click: t, popup: ["5", "t-p", "T-p"], label_symbol: '5', swipe_down: '5', key_back_color: bh5, key_text_color: th1, key_symbol_color: c8}
       - {click: y, popup: ["6", "y-p", "Y-p"], label_symbol: '6', swipe_down: '6', key_back_color: bh6, key_text_color: th1, key_symbol_color: c8}
