@@ -600,7 +600,7 @@ preset_color_schemes:
     c1: off_key_back_color #Shift键颜色
     c2: off_key_back_color #删除键颜色
     c3: off_key_back_color #数字/主键盘跳转键颜色
-    c4: off_key_back_color#中英键颜色
+    c4: off_key_back_color #中英键颜色
     c5: main_back_color #逗号键颜色
     c6: main_back_color #句号键颜色
     c7: off_key_back_color #符号键颜色
